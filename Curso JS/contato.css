@@ -1,0 +1,67 @@
+body{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+header{
+    background-color: rgb(22, 22, 22);
+    padding: 25px 0;
+}
+
+.logoBranca {
+    width: 40%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+
+}
+
+nav li {
+    display: inline;
+    margin:  0 0 0 40px;
+    
+    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;   
+}
+
+nav a:hover{
+    color:#daa520;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input{
+    display: block;
+    margin-bottom:  20px;
+    padding: 8px 30px; 
+    width: 50%;
+}
